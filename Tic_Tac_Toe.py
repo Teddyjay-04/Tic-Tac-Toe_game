@@ -33,7 +33,7 @@ def player_move(icon):
                 print("That space is taken!")
         except ValueError as e:
             print(e)
-
+#checking for the 3 straight line of the tic tac toe
 def is_victory(icon):
     if (board[0] == icon and board[1] == icon and board[2] == icon) or \
         (board[3] == icon and board[4] == icon and board[5] == icon) or \
